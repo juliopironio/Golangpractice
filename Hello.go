@@ -1,6 +1,9 @@
 package main
 
-import ("fmt" "os")
+import (
+	"fmt"
+	"os"
+)
 
 func main() {
 	var s, sep string
