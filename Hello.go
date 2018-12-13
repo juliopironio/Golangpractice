@@ -1,10 +1,12 @@
 package main
 
-import "fmt"
+import ("fmt" "os")
 
 func main() {
-	init()
-	fmt.Printf("hello, world\n")
-	fmt.Printf("modified today\n")
-	fmt.Printf("modified today\n")
+	var s, sep string
+  for i := 1; i < len(os.Args); i++ {
+        s += sep + os.Args[i]
+        sep = " "
+  }
+  fmt.Println(s)
 }
