@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	init()
 	fmt.Printf("hello, world\n")
-	fmt.Printf("modified today\n")
+	fmt.Printf("modified today!\n")
 }
 
 // Function to be called before anything else...
