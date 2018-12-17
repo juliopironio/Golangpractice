@@ -6,5 +6,5 @@ import "fmt"
 func init() {
 	fmt.Printf("Initializing...\n")
 	fmt.Printf("....working....\n")
-	fmt.Printf("...init finished\n")
+	fmt.Printf("...init finished succersfully.\n")
 }
