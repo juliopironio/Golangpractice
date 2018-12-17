@@ -1,2 +1,2 @@
 # Golangpractice
-Just simple Go learning snippets
+## Just simple Go learning snippets
